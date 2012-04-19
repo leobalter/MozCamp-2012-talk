@@ -266,8 +266,8 @@
   window.onresize = Dz.onresize.bind(Dz);
   window.onhashchange = Dz.onhashchange.bind(Dz);
   window.onmessage = Dz.onmessage.bind(Dz);
-</script>
-<script> // Helpers
+
+// Helpers
   if (!Function.prototype.bind) {
     Function.prototype.bind = function (oThis) {
       // closest thing possible to the ECMAScript 5 internal IsCallable
